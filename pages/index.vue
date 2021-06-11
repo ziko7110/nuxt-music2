@@ -4,6 +4,7 @@
       <Logo />
       <h1 class="title">
         nuxt-music2
+        プルリク削除テスト
       </h1>
       <div class="links">
         <a
