@@ -32,14 +32,11 @@ export default {
     methods: {
         appStart(){
             this.isStarted = true
-        }, // <- 複数のメソッドを置く場合はコンマが必要
-
-        // ====== ここから追加する ======
+        },
         musicStart(){
             var synth = new Tone.Synth().toMaster()
             synth.triggerAttackRelease('C4', '8n')
         }
-        // ====== ここまで追加する ======
     }
 }
 
