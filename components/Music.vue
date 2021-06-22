@@ -39,9 +39,7 @@ export default {
         }
     }
 }
-
 </script>
-
 
 <style>
 .startBtn,
