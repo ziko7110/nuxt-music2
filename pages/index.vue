@@ -6,6 +6,7 @@
 
 <script>
 import Music from '~/components/Music'
+
 export default {
     components: {
         Music
