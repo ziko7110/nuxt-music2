@@ -6,6 +6,7 @@
         >
             Music
         </button>
+        
         <button 
             class="startBtn"
             @click="appStart"
