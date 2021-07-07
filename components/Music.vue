@@ -4,14 +4,14 @@
             class="musicBtn"
             @click="musicStart"
         >
-            Music
+            ミュージック
         </button>
         
         <button 
             class="startBtn"
             @click="appStart"
             v-if="isStarted==false">
-            Start
+            スタート
         </button>
         <section
             class="touchZone"
